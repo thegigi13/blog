@@ -5,7 +5,7 @@
 
 @section('content')
 
-		<img src="/images/chien.jpg" alt="a dog">
+		<img src="/images/dog.png" alt="a dog">
 
         <p>Built with &hearts; by Me.</p>
         

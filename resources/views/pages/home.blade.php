@@ -3,7 +3,7 @@
 
 @section('content')
 
-		<img src="/images/montagne.jpg" alt="image Quebec">
+		<img src="/images/quebec.png" alt="Drapeau du Quebec">
 
         <h1>Hello from Quebec!</h1>
 
