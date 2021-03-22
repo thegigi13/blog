@@ -5,7 +5,7 @@
 
 @section('content')
 
-		<img src="/images/dog.png" alt="a dog">
+		<img src="{{ asset('images/dog.png') }}" alt="a dog">
 
         <p>Built with &hearts; by Me.</p>
         

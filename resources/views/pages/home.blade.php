@@ -3,7 +3,7 @@
 
 @section('content')
 
-		<img src="/images/quebec.png" alt="Drapeau du Quebec">
+		<img src="{{ asset('images/quebec-1.png') }}" alt="Drapeau du Quebec">
 
         <h1>Hello from Quebec!</h1>
 
