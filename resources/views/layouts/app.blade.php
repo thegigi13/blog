@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-        <title>{{ isset($title) ? config('app.name') . ' | ' . $title : config('app.name') }}</title>
+        <title>{{ page_title($title ?? null) }}</title>
  
     </head>
     <body class="py-6 flex flex-col justify-between items-center min-h-screen">
