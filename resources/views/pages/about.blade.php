@@ -1,7 +1,5 @@
 
-@extends('app')
-
-@section('title', config('app.name').' | about-us')
+@extends('layouts/app', ['title' => 'about-us'])
 
 @section('content')
 

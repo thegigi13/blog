@@ -12,6 +12,10 @@ Route::get('/about-us',function (){
 })->name('about');
 
 
+Route::get('/help', function(){
+	return view('pages/help');
+});
+
 
 
 
